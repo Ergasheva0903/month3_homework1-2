@@ -1,0 +1,43 @@
+.headquarters {
+  padding-top: 168px;
+  padding-bottom: 168px;
+}
+
+.headquarters_block {
+  width: 1045px;
+  margin-left: 85px;
+}
+
+.headquarters_title {
+  font-family: $font1;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 133%;
+  color: $gray;
+  margin-bottom: 72px;
+}
+
+.headquarters_item {
+  width: 285px;
+  color: $black;
+}
+
+.headquarters_sub_title {
+  margin-top: 46px;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 112%;
+  font-family: $font1;
+  margin-bottom: 24px;
+}
+
+.headquarters_sub_desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+}
+
+.headquarters_list {
+  display: flex;
+  justify-content: space-between;
+}

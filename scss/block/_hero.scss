@@ -1,0 +1,40 @@
+.hero_block {
+  padding-top: 116px;
+  padding-bottom: 116px;
+  background-repeat: no-repeat;
+  background-image: url("../images/hero_bg.png");
+  background-position: center center;
+  color: $white_text;
+  border-radius: 10px;
+}
+
+.hero_title {
+  width: 493px;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 100%;
+  margin-bottom: 32px;
+  font-family: $font1;
+}
+
+.hero_desc {
+  width: 445px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  opacity: 0.8;
+  margin-bottom: 56px;
+}
+
+.hero_content_block {
+  margin-left: 85px;
+}
+
+.hero_button {
+  @include button;
+}
+
+.hero_button:hover {
+  background-color: $white_text;
+  color: $dark_gray;
+}

@@ -1,0 +1,45 @@
+.collection {
+  padding-top: 136px;
+  padding-bottom: 200px;
+  color: $black;
+}
+
+.collection_item {
+  width: 255px;
+  text-align: center;
+}
+
+.collection_sub_title {
+  font-family: $font1;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 133%;
+  margin-bottom: 24px;
+}
+
+.collection_sub_desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+}
+
+.collection_list {
+  padding-top: 126px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.collection_block {
+  background-repeat: no-repeat;
+  background-image: url("../images/collection_bg.svg");
+  background-position: top center;
+}
+
+.collection_container {
+  max-width: 1150px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}

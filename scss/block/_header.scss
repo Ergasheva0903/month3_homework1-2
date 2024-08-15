@@ -1,0 +1,46 @@
+.header {
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+
+.header_item_link {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 125%;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $gray;
+}
+
+.header_item_link:hover {
+  color: $black;
+}
+
+.header_button {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 125%;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $gray;
+  background-color: $white_text;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+.header_button:hover {
+  color: $black;
+}
+
+.header_list {
+  display: flex;
+  gap: 32px;
+  align-items: baseline;
+}
+
+.header_block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

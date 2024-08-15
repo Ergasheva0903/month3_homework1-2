@@ -1,0 +1,91 @@
+.work {
+  padding-bottom: 200px;
+}
+
+.work_item {
+  width: 583px;
+}
+
+.work_title {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 133%;
+  color: $gray;
+  margin-bottom: 80px;
+  font-family: $font1;
+}
+
+.work_item {
+  width: 285px;
+  padding-top: 110px;
+  color: $black;
+}
+
+.work_item:nth-child(1) {
+  background-repeat: no-repeat;
+  background-image: url("../images/work_bg1.svg");
+  background-position: left top;
+}
+
+.work_item:nth-child(2) {
+  background-repeat: no-repeat;
+  background-image: url("../images/work_bg2.svg");
+  background-position: left top;
+}
+
+.work_item:nth-child(3) {
+  background-repeat: no-repeat;
+  background-image: url("../images/work_bg3.svg");
+  background-position: left top;
+}
+
+.work_sub_title {
+  width: 255px;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 112%;
+  margin-bottom: 42px;
+  font-family: $black;
+  font-family: $font1;
+}
+
+.work_sub_desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+}
+
+.work_list {
+  display: flex;
+  gap: 95px;
+  padding-top: 98px;
+  background-repeat: no-repeat;
+  background-image: url("../images/work_circle.svg"),
+    url("../images/work_circle.svg"), url("../images/work_circle.svg");
+  background-position: left top, left 380px top, left 760px top;
+  margin-bottom: 64px;
+}
+
+.work_container {
+  max-width: 1150px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.work_block {
+  background-repeat: no-repeat;
+  background-image: url("../images/work_line.svg");
+  background-position: left top 127.5px;
+}
+
+.work_button{
+  @include button;
+}
+
+.work_button:hover{
+  background-color: $dark_gray;
+  color: $white_text;
+}

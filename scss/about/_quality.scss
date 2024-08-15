@@ -1,0 +1,38 @@
+.quality_block {
+  position: relative;
+  padding-left: 85px;
+  padding-right: 85px;
+  margin-top: 88px;
+  background-color: $dark_gray;
+  border-radius: 10px;
+  color: $white_text;
+  display: flex;
+  justify-content: space-between;
+}
+
+.quality_img_block {
+  position: absolute;
+  right: 85px;
+  top: -88px;
+}
+
+.quality_title {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 120%;
+  margin-bottom: 32px;
+  font-family: $font1;
+}
+
+.quality_desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  opacity: 0.8;
+}
+
+.quality_content_block {
+  width: 540px;
+  margin-top: 88px;
+  margin-bottom: 176px;
+}
